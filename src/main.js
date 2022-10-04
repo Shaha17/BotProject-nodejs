@@ -2,6 +2,8 @@ import { sum, sayHello } from './lib/sampleLib.js'
 import { Markup, Telegraf } from 'telegraf';
 import { botToken } from './config.js';
 
+await run()
+
 async function run() {
 	console.log('start')
 
@@ -73,4 +75,4 @@ async function run() {
 }
 
 
-await run()
+
